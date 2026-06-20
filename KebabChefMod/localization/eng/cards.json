@@ -1,4 +1,6 @@
 {
   "KEBABCHEFMOD-TAX_EVASION.description": "Gain {Block:diff()} [gold]Block[/gold].",
-  "KEBABCHEFMOD-TAX_EVASION.title": "TaxEvasion"
+  "KEBABCHEFMOD-TAX_EVASION.title": "Tax Evasion",
+  "KEBABCHEFMOD-CHEF_UP.description": "Gain {SkewerPower:diff()} [gold]Skewer[/gold]",
+  "KEBABCHEFMOD-CHEF_UP.title": "Chef Up!"
 }
