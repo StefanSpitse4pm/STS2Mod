@@ -22,8 +22,5 @@ public class ChefUp() : KebabChefModCard(1,
         SkewerPower skewerPower = await PowerCmd.Apply<SkewerPower>(choiceContext, chefUp.Owner.Creature, chefUp.DynamicVars["SkewerPower"].BaseValue, chefUp.Owner.Creature, (CardModel)null);
     }
 
-    protected override void OnUpgrade()
-    {
-
-    }
+    protected override void OnUpgrade() => EnergyCost.UpgradeBy(-1);
 }
