@@ -1,3 +1,5 @@
 {
-  
+  "KEBABCHEFMOD-SKEWER_POWER.description": "Deals damage when cap is reached.",
+  "KEBABCHEFMOD-SKEWER_POWER.smartDescription": "Deals {Damage} damage to all enemies when {SkewerStack} [gold]Skewer[/gold] is reached.",
+  "KEBABCHEFMOD-SKEWER_POWER.title": "Skewer"
 }
