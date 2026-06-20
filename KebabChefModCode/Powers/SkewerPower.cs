@@ -42,7 +42,7 @@ public class SkewerPower() : KebabChefModPower
             if (combatState == null) return;
             IEnumerable<DamageResult> damageResult =
                 await CreatureCmd.Damage(choiceContext,combatState.HittableEnemies, skewerPower.DynamicVars.Damage, skewerPower.Owner);
-            skewerPower.SetAmount(0);
+            skewerPower.SetAmount(1);
         }
     }
 

@@ -16,21 +16,12 @@ public class Grill() : KebabChefModRelic
     public override RelicRarity Rarity =>
         RelicRarity.Starter;
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<SkewerPower>(0M)];
-
-    public override async Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side, IReadOnlyList<Creature> participants,
-        ICombatState combatState)
-    {
-        Grill grill = this;
-        if (!participants.Contains(grill.Owner.Creature) || grill.Owner.PlayerCombatState.TurnNumber > 1)
-            return;
-        grill.Flash();
-        SkewerPower skewerPower = await PowerCmd.Apply<SkewerPower>(choiceContext, grill.Owner.Creature, grill.DynamicVars["SkewerPower"].BaseValue, grill.Owner.Creature, (CardModel)null);
-        
-
-    }
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<SkewerPower>(1M)];
 
     public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
     {
+        Grill grill = this;
+        grill.Flash();
+        SkewerPower skewerPower = await PowerCmd.Apply<SkewerPower>(choiceContext, grill.Owner.Creature, grill.DynamicVars["SkewerPower"].BaseValue, grill.Owner.Creature, (CardModel)null);
     }
 }

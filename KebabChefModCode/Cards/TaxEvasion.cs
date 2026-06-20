@@ -9,7 +9,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace KebabChefMod.KebabChefModCode.Cards;
 
 public class TaxEvasion() : KebabChefModCard(0,
-    CardType.Skill, CardRarity.Common,
+    CardType.Skill, CardRarity.Uncommon,
     TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(15, ValueProp.Move)];
