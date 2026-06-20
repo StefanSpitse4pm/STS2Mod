@@ -1,3 +1,16 @@
 {
-  
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.aromaPrinciple": "Lore",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.banter.dead.endTurnPing": "...",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.cardsModifierTitle": "__ Cards",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.description": "Character Selection\nScreen Description",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.eventDeathPrevention": "Co-op survival line",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.goldMonologue": "Line spoken when obtaining a large amount of gold",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.possessiveAdjective": "his/her/its",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.pronounObject": "him/her/it",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.pronounPossessive": "his/hers/its",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.pronounSubject": "he/she/it",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.title": "The KebabChefMod",
+  "KEBABCHEFMOD-KEBAB_CHEF_MOD.titleObject": "The KebabChefMod"
 }

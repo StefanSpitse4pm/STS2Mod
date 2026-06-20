@@ -2,6 +2,7 @@
 using BaseLib.Utils.NodeFactories;
 using KebabChefMod.KebabChefModCode.Extensions;
 using Godot;
+using KebabChefMod.KebabChefModCode.Relics;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
@@ -35,7 +36,7 @@ public class KebabChefMod : PlaceholderCharacterModel
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<BurningBlood>()
+        ModelDb.Relic<Grill>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<KebabChefModCardPool>();
