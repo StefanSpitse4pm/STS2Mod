@@ -8,7 +8,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace KebabChefMod.KebabChefModCode.Cards;
 
 public class Doner() : KebabChefModCard(0,
-    CardType.Skill, CardRarity.Basic,
+    CardType.Skill, CardRarity.Token,
     TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(3M, ValueProp.Move)];
